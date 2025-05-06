@@ -70,7 +70,7 @@ def _build_rich_tree_for_linked_list_node(node, tree_widget):
         display_val = node.value
     elif hasattr(node, 'val'):
         display_val = node.val
-    
+        
     subtree = tree_widget.add(f"[{display_val}]")
     if hasattr(node, 'next'):
         _build_rich_tree_for_linked_list_node(node.next, subtree)

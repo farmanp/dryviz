@@ -1,4 +1,11 @@
 """
+Example demonstrating stack operations with Dryviz visualization.
+
+This script defines a function `manage_stack_operations` that performs
+common stack actions (push, pop) using a Python list. The `@dryviz`
+decorator is applied to this function to visualize the state of the
+stack and other local variables at each step of execution.
+
 Demonstrates basic stack operations using a Python list.
 This function shows the following stack operations:
 1. Creating an empty stack
